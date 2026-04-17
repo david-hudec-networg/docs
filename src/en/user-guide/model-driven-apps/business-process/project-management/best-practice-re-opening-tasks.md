@@ -4,7 +4,7 @@ author: David Hudec
 
 # Best practice: Re-opening tasks
 
-The Loop guidance describes two groups of stakeholders that often see tasks differently:
+Two usual groups of stakeholders can be identified, which often look at tasks differently:
 
 - people focused on the process, where tasks are side effects of the process moving forward
 - people focused on the work itself, where completing the task is the main indicator of progress
