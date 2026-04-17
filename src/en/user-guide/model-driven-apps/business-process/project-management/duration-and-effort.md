@@ -4,8 +4,6 @@ author: David Hudec
 
 # Duration and effort
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 At the start of a project, tasks only have estimated start and end dates. Those dates are calculated from the project start, template durations, and dependencies.
 
 When users begin a task, they set the **Actual Start**. When they finish it, they set the **Actual End**. From that information, the task **Duration** is derived.

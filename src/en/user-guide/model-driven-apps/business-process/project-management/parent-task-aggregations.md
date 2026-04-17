@@ -4,8 +4,6 @@ author: David Hudec
 
 # Parent task aggregations
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 > TL;DR: Parent tasks derive their start and end dates from their children by taking the earliest child start and the latest child end.
 
 ## Scheduling behavior

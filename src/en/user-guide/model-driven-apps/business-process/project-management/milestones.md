@@ -4,8 +4,6 @@ author: David Hudec
 
 # Milestones
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 If tasks represent the work to be done, milestones represent the deadlines that need to be met.
 
 ## How milestones work

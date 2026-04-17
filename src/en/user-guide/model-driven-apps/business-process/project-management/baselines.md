@@ -4,8 +4,6 @@ author: David Hudec
 
 # Baselines
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 The live project always shows the most up-to-date task information. Actual dates are used where work has happened, and estimated dates are used where it has not.
 
 ## Why baselines exist

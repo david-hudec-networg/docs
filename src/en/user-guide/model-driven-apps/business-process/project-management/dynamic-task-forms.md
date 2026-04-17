@@ -4,8 +4,6 @@ author: David Hudec
 
 # Dynamic task forms
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 Tasks centralize and coordinate work, but they do not directly store all of the business inputs and outputs needed to finish that work. Dynamic task forms solve that by showing the relevant information directly on the task.
 
 ## Why dynamic forms matter

@@ -4,8 +4,6 @@ author: David Hudec
 
 # Dependencies
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 Most tasks are not freely available from the start of a project. To start or finish, they depend on other tasks. This is handled through dependencies.
 
 ## Dependency details

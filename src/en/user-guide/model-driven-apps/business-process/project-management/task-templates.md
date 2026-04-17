@@ -4,8 +4,6 @@ author: David Hudec
 
 # Task templates
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 Task templates package repeatable task structures so projects can generate consistent work with the right durations, dependencies, roles, and required inputs.
 
 ## Covered topics

@@ -4,8 +4,6 @@ author: David Hudec
 
 # Task ownership
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 In advanced scenarios, tasks can have both **Responsible** and **Accountable** people.
 
 ## Ownership model

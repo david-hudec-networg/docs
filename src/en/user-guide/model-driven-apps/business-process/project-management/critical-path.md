@@ -4,8 +4,6 @@ author: David Hudec
 
 # Critical path
 
-> Note: This page is based on an AGTDSV Loop snapshot dated **19.03.2026**. The source note says a copy was moved into the Cetin tenant.
-
 In most projects, there is a main chain of tasks linked by dependencies that determines when the project can finish. That chain is the **critical path**.
 
 If any task on that path is delayed, the whole project is delayed.
