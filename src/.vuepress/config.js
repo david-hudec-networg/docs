@@ -724,6 +724,45 @@ module.exports = config({
                                 ['model-driven-apps/business-process/procurement/approve-purchase-invoice', 'Approval of purchase invoice'],
                                 ['model-driven-apps/business-process/procurement/mark-invoice-as-paid', 'Mark invoice as paid'],
                             ]
+                        },
+                        {
+                            title: 'Project management',
+                            collapsable: false,
+                            children: [
+                                ['model-driven-apps/business-process/project-management/manage-projects', 'Project management overview'],
+                                {
+                                    title: 'Team and ownership',
+                                    collapsable: true,
+                                    children: [
+                                        ['model-driven-apps/business-process/project-management/project-team-members-and-permissions', 'Project team members and permissions'],
+                                        ['model-driven-apps/business-process/project-management/long-term-responsibilities', 'Long term responsibilities'],
+                                        ['model-driven-apps/business-process/project-management/task-ownership', 'Task ownership'],
+                                        ['model-driven-apps/business-process/project-management/best-practice-re-opening-tasks', 'Best practice: Re-opening tasks'],
+                                    ]
+                                },
+                                {
+                                    title: 'Task design',
+                                    collapsable: true,
+                                    children: [
+                                        ['model-driven-apps/business-process/project-management/checklists', 'Checklists'],
+                                        ['model-driven-apps/business-process/project-management/parent-task-aggregations', 'Parent task aggregations'],
+                                        ['model-driven-apps/business-process/project-management/task-templates', 'Task templates'],
+                                        ['model-driven-apps/business-process/project-management/dynamic-task-forms', 'Dynamic task forms'],
+                                        ['model-driven-apps/business-process/project-management/reporting', 'Reporting'],
+                                    ]
+                                },
+                                {
+                                    title: 'Scheduling and delivery',
+                                    collapsable: true,
+                                    children: [
+                                        ['model-driven-apps/business-process/project-management/duration-and-effort', 'Duration and effort'],
+                                        ['model-driven-apps/business-process/project-management/dependencies', 'Dependencies'],
+                                        ['model-driven-apps/business-process/project-management/critical-path', 'Critical path'],
+                                        ['model-driven-apps/business-process/project-management/milestones', 'Milestones'],
+                                        ['model-driven-apps/business-process/project-management/baselines', 'Baselines'],
+                                    ]
+                                },
+                            ]
                         }
                     ],
                     '/en/customizer-guide/': [
