@@ -31,6 +31,8 @@ The source notes that templates are currently built from a top-level task. To su
 - the template header name
 - the tasks that should be included under it
 
+The header acts as the reusable package or container. The actual reusable structure below it is still a hierarchy of template tasks. Those template tasks are the parts that later drive generated project tasks.
+
 ## Creating templates
 
 Two approaches are described for adding subtasks to a new template:
@@ -61,6 +63,8 @@ When users apply a template to a project, the system should open a dialog that s
 
 The user can then select the start date or the dependent task used for date calculation, adjust task values, and deselect tasks that should not be created.
 
+In other words, applying a template expands the included template task hierarchy into real project tasks. The header identifies the package, but the generated project tasks come from the template tasks contained within that package.
+
 ## Stages and hierarchies
 
 Task templates reference stages so reporting stays standardized, and templates should be stackable into larger bundles without forcing duplicated maintenance.
@@ -75,6 +79,8 @@ Templates can define:
 - dynamic readable or writeable fields, subgrids, and documents shown in the generated task form
 - milestone templates that keep tasks but do not carry duration
 - range-based or rule-based durations, including repeating tasks
+
+These behaviors belong to the relevant template tasks in the hierarchy. That includes duration-based scheduling, dependencies, stage references, role-based assignment, and dynamic task form behavior.
 
 ## Figma prototypes
 

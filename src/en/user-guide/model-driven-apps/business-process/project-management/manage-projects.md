@@ -36,6 +36,8 @@ Templates define reusable structures that drive project creation. They include:
 - **Role-based assignment** instead of specific users
 - **Dynamic fields** determining what appears in each task form
 
+Where a separate **Task Template Header** is used, it acts as the package for the reusable hierarchy. The actual project tasks are generated from the template tasks inside that hierarchy, and those template tasks carry the scheduling, dependency, stage, role, and dynamic form rules.
+
 When a project is created, the system generates tasks down the entire dependency hierarchy, calculates dates from durations, and maps roles to actual people.
 
 Templates can be bundled into larger hierarchies, supporting multi-stage processes without duplication.
