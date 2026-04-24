@@ -19,7 +19,7 @@ The source page covers:
 - dynamic dates using durations, dependencies, and offsets
 - dynamic assignees from roles
 - dynamic readable or writeable fields, subgrids, and documents
-- milestone templates
+- deadline templates
 - dynamic durations and repeating tasks
 
 ## Headers
@@ -75,7 +75,7 @@ Templates can define:
 - child offsets to preserve total parent duration
 - roles instead of concrete users
 - dynamic readable or writeable fields, subgrids, and documents shown in the generated task form
-- milestone templates that keep tasks but do not carry duration
+- deadline templates that keep tasks but do not carry duration
 - range-based or rule-based durations, including repeating tasks
 
 These behaviors belong to the relevant template tasks in the hierarchy. That includes duration-based scheduling, dependencies, stage references, role-based assignment, and dynamic task form behavior.

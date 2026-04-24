@@ -38,7 +38,7 @@ For example, if **Task 1** finishes on Thursday at 5 PM and **Task 2** has an **
 
 Timing cascades must also respect working days. A two-day task moved to Friday should still end on Monday while keeping its duration at two working days.
 
-If a task on the critical path moves, the cascade can push later work beyond milestone deadlines.
+If a task on the critical path moves, the cascade can push later work beyond deadlines.
 
 ## Parent task dependencies
 

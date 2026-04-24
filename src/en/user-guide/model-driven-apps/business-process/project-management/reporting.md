@@ -8,9 +8,9 @@ Reporting is the other half of project management beside direct task oversight.
 
 ## Reporting IDs
 
-To keep reporting flexible, each task and milestone is connected to a **Reporting ID**. Reporting lists then hold ordered lists of reporting IDs, or they are used in reports directly.
+To keep reporting flexible, each task and deadline is connected to a **Reporting ID**. Reporting lists then hold ordered lists of reporting IDs, or they are used in reports directly.
 
-This means semantically similar tasks or milestones can still be reported together even when they:
+This means semantically similar tasks or deadlines can still be reported together even when they:
 
 - exist in different projects
 - come from different template versions
