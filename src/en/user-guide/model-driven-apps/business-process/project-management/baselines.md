@@ -4,19 +4,15 @@ author: David Hudec
 
 # Baselines
 
-The live project always shows the most up-to-date task information. Actual dates are used where work has happened, and estimated dates are used where it has not.
+The live Project always shows the most up-to-date Task information. Actual dates are used where work has happened, and estimated dates are used where it has not.
 
-## Why baselines exist
-
-Baselines create a snapshot of the project at a specific point in time. That makes it easier to:
+Baselines create a snapshot of the Project at a specific point in time. That makes it easier to:
 
 - compare later progress
-- separate externally shared expectations from day-to-day project adjustments
+- separate externally shared expectations from day-to-day Project adjustments
 - keep formal checkpoints, for example after a quarterly review
 
-## Why they matter
-
-Project leads can keep the best available estimates in the live schedule, but that can make the project look like it is slipping compared with older expectations. Baselines preserve those older expectations so the comparison stays clear.
+Project leads can keep the best available estimates in the live schedule, but that can make the Project look like it is slipping compared with older expectations. Baselines preserve those older expectations so the comparison stays clear.
 
 ## Prototype scenarios
 

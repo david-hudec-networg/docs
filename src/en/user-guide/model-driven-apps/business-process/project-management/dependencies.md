@@ -48,8 +48,6 @@ During scheduling, the system effectively treats parent tasks as if they had fin
 
 ### Draft technical proposal
 
-The Loop note includes a draft proposal where:
-
 - parent tasks are not scheduled directly
 - parent tasks do not participate directly in the dependency graph or critical path calculation
 - a virtual gateway task is created when dependencies exist on a parent task

@@ -4,35 +4,27 @@ author: David Hudec
 
 # Deadlines
 
-If tasks represent the work to be done, deadlines represent the deadlines that need to be met.
+If Tasks represent the work to be done, Deadlines represent the obligations that need to be met.
 
 ## How deadlines work
 
-- A deadline has a specific date.
-- A deadline can be linked to many tasks.
-- A task marked as relevant to a deadline stores which deadline it relates to.
-- A deadline can be closed once all connected tasks are complete.
+A Deadline has a specific due date. It can be linked to many Tasks. Any Task marked as relevant to a Deadline stores which Deadline it relates to. A Deadline can be closed once all connected Tasks are complete.
 
 ## Planning implications
 
-Deadlines are harder to move than tasks, because changing them usually requires agreement with the party expecting the deadline.
+Deadlines are harder to move than Tasks, because changing them usually requires agreement with the party expecting the deadline.
 
-By comparing the latest task end date with the deadline date, project leads can see:
+By comparing the latest Task end date with the Deadline due date, Project owners can see:
 
-- remaining runway if the tasks still finish before the deadline
+- remaining runway if the Tasks still finish before the deadline
 - the number of days overdue if they do not
 
-That helps project leads decide whether to shorten some task durations or negotiate a deadline change.
+That helps Project owners decide whether to shorten some Task durations or negotiate a Deadline change.
 
-## Baselines and visuals
+## Visuals
 
-Like tasks, deadlines can be stored in a baseline so later comparisons stay possible.
-
-
-The source describes two visual options:
-
-- on a Gantt chart, deadlines appear as vertical lines crossing the task bars
-- on a hierarchical task grid, connected tasks show a colored marker, and tasks ending after the deadline are underlined in red
+- on a Gantt chart, Deadlines appear as vertical lines crossing the task bars
+- on a hierarchical Task grid, connected Tasks show a colored marker, and Tasks ending after the Deadline are underlined in red
 
 
 ## Prototype scenarios

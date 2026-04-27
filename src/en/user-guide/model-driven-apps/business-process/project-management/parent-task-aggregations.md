@@ -8,26 +8,15 @@ author: David Hudec
 
 ## Scheduling behavior
 
-As soon as a task has child tasks, it is no longer scheduled directly. Its scheduling properties are derived from its children rather than edited individually.
+As soon as a Task has child Tasks, it is no longer scheduled directly. Its scheduling properties are derived from its children rather than edited individually. That includes start, end and duration, but not the owner.
 
-That includes:
-
-- start
-- end
-- duration
-
-## Progress and effort
-
-If effort tracking is enabled, the parent task can derive progress from the effort spent and remaining across child tasks.
+If effort tracking is enabled, the parent Task can derive progress from the effort spent and remaining across child Tasks.
 
 ## Ownership and dependencies
 
-The parent task still keeps its own owner so accountability remains visible for larger parts of the project. Dependencies can also exist on parent tasks, which makes it possible to keep a high-level process flow even when the work is split into subtasks.
+The parent Task still keeps its own owner so accountability remains visible for larger parts of the project. Dependencies can also exist on parent Tasks, which makes it possible to keep a high-level process flow even when the work is split into child Tasks.
 
-This also means the main critical path can exist at any depth:
-
-- upper levels act like folders
-- lower levels act like the partial steps needed for completion
+This also means the main critical path can exist at any depth. Tasks above the path act like folders, while, levels below act like the partial steps needed for completion.
 
 ## Prototype scenarios
 

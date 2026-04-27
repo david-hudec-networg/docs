@@ -4,7 +4,7 @@ author: David Hudec
 
 # Project team members and permissions
 
-Not everyone in a project has the same access. Each company can define its own roles, so some users can work across the whole project, some are limited to a specific stage, and others only see tasks assigned to them.
+Not everyone in a Project has the same access. Each company can define its own Roles, so some users can work across the whole Project, some are limited to a specific Stage, and others only see Tasks assigned to them.
 
 ## Project membership
 
@@ -22,11 +22,11 @@ This also helps preserve the historical view of who participated in the project 
 
 ## Assigning people outside the current project team
 
-When a task is assigned to someone as **Accountable** or **Responsible**, and that person is not already part of the project team, the assigning user should be required to confirm:
+When a Task is assigned to someone as **Accountable** or **Responsible**, and that person is not already part of the Project team, the assigning user should be required to confirm:
 
 - the role
 - the access dates
-- the optional stage restriction
+- the optional Stage restriction
 
 ## Prototype scenarios
 
@@ -35,22 +35,4 @@ When a task is assigned to someone as **Accountable** or **Responsible**, and th
 - Assign two people who are not currently members to a task.
 - Show a dialog that lets the user add both people to the project with the missing role and access details.
 
-## Technical options
-
-The frontend model is described as:
-
-**Project + Member + Role + Stage (optional) + From + To (optional)**
-
-### Dynamic rulesets (preferred)
-
-This option adds users to security teams that carry rulesets and business units, with one business unit per project. Plugins then evaluate those security teams and rulesets and only return matching records.
-
-### Sharing and unsharing
-
-This is a more manual option, likely implemented through flows, and it requires explicit unsharing when a user no longer meets the access requirements.
-
-### Custom business units (Yungo-style)
-
-- Each project gets its own business unit.
-- Each stage gets its own sub-business unit.
-- Team members are added to or removed from the project business unit based on role and access dates.
+> Note: Currently two technical security models are being discussed: via hierarchical business units for each Project and Stage, OR a runtime plugin checking read and write privileges stored ad config.

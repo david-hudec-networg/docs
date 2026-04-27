@@ -4,15 +4,15 @@ author: David Hudec
 
 # Reporting
 
-Reporting is the other half of project management beside direct task oversight.
+Reporting is the other half of Project Management beside direct Task oversight.
 
 ## Reporting IDs
 
-To keep reporting flexible, each task and deadline is connected to a **Reporting ID**. Reporting lists then hold ordered lists of reporting IDs, or they are used in reports directly.
+To keep reporting flexible, each Task and Deadline is connected to a **Reporting ID**. Reporting lists then hold ordered lists of reporting IDs, or they are used in reports directly.
 
-This means semantically similar tasks or deadlines can still be reported together even when they:
+This means semantically similar Tasks or Deadlines can still be reported together even when they:
 
-- exist in different projects
+- exist in different Projects
 - come from different template versions
 - appear at different hierarchy levels
 - sit in different reporting sequences for different audiences

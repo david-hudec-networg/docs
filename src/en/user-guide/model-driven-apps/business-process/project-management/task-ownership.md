@@ -4,7 +4,7 @@ author: David Hudec
 
 # Task ownership
 
-In advanced scenarios, tasks can have both **Responsible** and **Accountable** people.
+In advanced scenarios, Tasks can have both **Responsible** and **Accountable** people.
 
 ## Ownership model
 
@@ -21,7 +21,7 @@ With that model:
 
 ## Notifications
 
-Some people should only be **Informed** when a task reaches a certain point or finishes. In those cases, the system should send a notification that the user can dismiss or follow back to the originating record.
+Some people should only be **Informed** when a task reaches a certain point or finishes. In those cases, the system sends a notification that the user can dismiss or follow back to the originating record.
 
 ## Prototype scenarios
 

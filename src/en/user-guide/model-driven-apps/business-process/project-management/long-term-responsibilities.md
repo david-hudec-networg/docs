@@ -4,7 +4,7 @@ author: David Hudec
 
 # Long term responsibilities
 
-Companies usually have rules for who is responsible for which task, but those rules can depend on different business factors. For example, Sales can divide responsibilities by geography, while Finance can divide them by budget size.
+Companies usually have rules for who is responsible for which Task, but those rules can depend on different business factors. For example, Sales can divide responsibilities by geography, while Finance can divide them by budget size.
 
 ## Responsibility matrix
 
@@ -34,4 +34,4 @@ When a new task is created and a role is already known, for example from a task 
 - one matching person
 - multiple matching people
 
-The matching can use information from the project, stage, and any other available context. This makes the matrix useful not only for building the initial project team, but also for ad-hoc task assignments.
+The matching can use information from the Project, Stage, and any other available context. This makes the matrix useful not only for building the initial project team, but also for ad-hoc Task assignments.

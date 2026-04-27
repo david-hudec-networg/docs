@@ -4,13 +4,13 @@ author: David Hudec
 
 # Checklists
 
-Sometimes adding more child tasks is more cumbersome than helpful. For those cases, tasks can contain a checklist that stores a simple ordered list of items with a name and a done state.
+Sometimes adding more child Tasks is more cumbersome than helpful. For those cases, Tasks can contain a Checklist that stores a simple ordered list of items with a name and a done state.
 
 ## How checklists work
 
-If a user can edit a task, they can:
+If a user can edit a Task, they can:
 
-- create checklist items
+- create Checklist items
 - mark items as done or not done
 - reorder items
 - remove items
@@ -21,7 +21,7 @@ Checklist items do **not** have:
 - due dates
 - percentage complete
 
-They are meant to remind users of the steps needed to complete the actual task.
+They are meant to remind users of the steps needed to complete the actual Task.
 
 ## Prototype scenarios
 
