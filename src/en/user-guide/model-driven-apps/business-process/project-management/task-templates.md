@@ -8,8 +8,6 @@ Task templates package repeatable task structures so projects can generate consi
 
 ## Covered topics
 
-The source page covers:
-
 - headers
 - creating templates
 - creating tasks
@@ -22,65 +20,61 @@ The source page covers:
 - deadline templates
 - dynamic durations and repeating tasks
 
-## Headers
+## Pointers
 
-The source notes that templates are currently built from a top-level task. To support a clearer user experience, it proposes a separate **Task Template Header** where users provide:
+Task templates mirror actual tasks, and so exist in a hierarchy. They can be artibtratily complex and form one giant tree or multiple distinct ones.
 
-- the template header name
-- the tasks that should be included under it
+However, generating tasks from templates can require spawning the entire tree, spawning only a specific part of the template tree, spawning multiple template trees next to each other, or a combination of the above. To solve this, templates are spawned from pointers.
 
-The header acts as the reusable package or container. The actual reusable structure below it is still a hierarchy of template tasks. Those template tasks are the parts that later drive generated project tasks.
+A task template pointer allows selecting one or multiple template tasks, and for each one selected, a task will be spawned for the enitre hierarchy living under the selected task template.
+
+- if an entire task template tree needs to be used, the pointer keeps the top level task
+- if only a part of the tree needs to be used, the pointer keeps reference to only the task where it should start
+- if multiple trees should be spawned, the pointer references all the tasks which ashould become the starting "top level tasks" spawned
+
+This allows templates to be kept in a single hierarchy, while enabling spawning tasks from any point inside it. This means one template task tree can allow spawning the entire task tree or only one or multiple specific parts of it.
 
 ## Creating templates
 
-Two approaches are described for adding subtasks to a new template:
+Users can select one or multiple tasks in a project, provide a name and create a template from them. Optionally, the user can choose to create a pointer to all the new task templates.
 
-- only include the explicitly selected tasks
-- make all selected tasks top-level template tasks and recursively include all of their children
+The app will take each selected task and create a new template from it, and from each child task in the original task's hierarchy.
 
-The source recommends the second approach.
+If two tasks converted into templates keep a dependency, it will also be converted into a template dependency.
 
-When a template is created, users should see a dialog that:
-
-- captures the template header name
-- shows the full structure that will be included
-- lets the user exclude specific child tasks before saving
+In order to keep logical connections, task templates can be grouped into an arbitrary parent tak template.
 
 ## Dependencies in templates
 
 Task templates can keep dependencies in the same way as regular tasks. The dependency type and offset should be preserved so later task generation can calculate dates correctly.
 
+If a template dependency exists and both its task templates are used to spawn tasks, the dependency will also be spawned.
+
 ## Creating tasks from templates
 
-When users apply a template to a project, the system should open a dialog that shows the tasks to be created together with pre-filled:
+Users can select a pointer to spawn tasks, either as top-level or as children under a specific task. The app presents a dialog showing all the tasks to be spawned, along with pre-filled:
 
-- dates
+- start and end dates
 - tags
 - dependencies
 - assignees
 
-The user can then select the start date or the dependent task used for date calculation, adjust task values, and deselect tasks that should not be created.
-
-In other words, applying a template expands the included template task hierarchy into real project tasks. The header identifies the package, but the generated project tasks come from the template tasks contained within that package.
-
-## Stages and hierarchies
-
-Task templates reference stages so reporting stays standardized, and templates should be stackable into larger bundles without forcing duplicated maintenance.
+The user can then select the start date or the driving task used for date calculation, adjust task values, and deselect tasks that should not be created.
 
 ## Dynamic template behavior
 
-Templates can define:
+Since template tasks serve as an absraction, they define:
 
 - durations instead of fixed dates
 - child offsets to preserve total parent duration
-- roles instead of concrete users
+- roles instead of specific users
 - dynamic readable or writeable fields, subgrids, and documents shown in the generated task form
 - deadline templates that keep tasks but do not carry duration
 - range-based or rule-based durations, including repeating tasks
 
 These behaviors belong to the relevant template tasks in the hierarchy. That includes duration-based scheduling, dependencies, stage references, role-based assignment, and dynamic task form behavior.
 
-## Figma prototypes
+## Figma prototypes (to be updated)
 
 - [Variant 1](https://www.figma.com/proto/FyhtWnUnVBljNOM2L5dq4r/PCT24002-CETIN)
 - [Variant 2](https://www.figma.com/proto/FyhtWnUnVBljNOM2L5dq4r/PCT24002-CETIN)
