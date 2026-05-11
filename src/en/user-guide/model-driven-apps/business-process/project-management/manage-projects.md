@@ -13,7 +13,7 @@ Over the last 20 years, managing projects has become a widely standardized area 
 
 However, there are features not seen in Project Management commonly:
 
-- create Dependencies at any Task level — all parent Tasks will simply act as "folders" and all subtasks will act as partial steps for completion (while still carrying all Task attributes, unlike Checklists)
+- create Dependencies at any Task level — all parent Tasks will simply act as "folders" and all subtasks will act as partial steps for completion (while still carrying all Task attributes; for simple step-lists, add subtasks inline with only a name)
 - Keep specific Tasks linked to Deadlines — so the estimated delivery can be easily compared to the deadline
 - keep multiple Baselines for history, reporting or projecting potential future scenarios
 - Dynamically render necessary info and input fields based on original Task Template definitions, to avoid Tasks tracked separately from actual data input, allowing users to finish work directly from the Task and submit it + mark it as complete at the same time
@@ -24,7 +24,7 @@ However, there are features not seen in Project Management commonly:
 
 Projects are organized into Programs or Portfolios, split into Stages and executed through Tasks with estimated and actual dates and Dependencies. As Tasks move, their dependent Tasks automatically move as well, and these changes are compared against fixed or contract-bound Deadlines.
 
-Parent Tasks function as **containers**, with their dates and duration derived from their child Tasks. Subtasks remain full Tasks with all attributes (unlike Checklists).
+Parent Tasks function as **containers**, with their dates and duration derived from their child Tasks. Subtasks remain full Tasks with all attributes. For simple step-lists, add subtasks inline with only a name.
 
 ## Deadlines
 

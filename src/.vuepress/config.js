@@ -744,7 +744,6 @@ module.exports = config({
                                     title: 'Task design',
                                     collapsable: true,
                                     children: [
-                                        ['model-driven-apps/business-process/project-management/checklists', 'Checklists'],
                                         ['model-driven-apps/business-process/project-management/parent-task-aggregations', 'Parent task aggregations'],
                                         ['model-driven-apps/business-process/project-management/task-templates', 'Task templates'],
                                         ['model-driven-apps/business-process/project-management/dynamic-task-forms', 'Dynamic task forms'],

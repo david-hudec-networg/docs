@@ -2,34 +2,18 @@
 author: David Hudec
 ---
 
-# Checklists
+# Checklists (deprecated)
 
-Sometimes adding more child Tasks is more cumbersome than helpful. For those cases, Tasks can contain a Checklist that stores a simple ordered list of items with a name and a done state.
+The separate "Checklist" concept has been removed. For simple ordered steps inside a Task, add subtasks inline using only a name (the subtask title). Subtasks created inline should be minimal — only a name — and may be promoted with additional attributes (assignee, due date, etc.) only when required.
 
-## How checklists work
+Why use inline subtasks?
 
-If a user can edit a Task, they can:
+- Subtasks are full Tasks and support tracking, dependencies and assignment when needed.
+- Using inline subtasks keeps the data model and UI consistent across simple step-lists and richer Tasks.
 
-- create Checklist items
-- mark items as done or not done
-- reorder items
-- remove items
+Example
 
-Checklist items do **not** have:
+1. Open a Task and add a subtask named "Draft introduction".
+2. Add another subtask named "Review draft".
 
-- assignees
-- due dates
-- percentage complete
-
-They are meant to remind users of the steps needed to complete the actual Task.
-
-## Prototype scenarios
-
-- Open a task form and show an empty checklist with a shadow item.
-- Let the user type inline and click away to save it.
-- Add five items.
-- Remove one item.
-- Drag one item to another position.
-- Mark two items as done and show them crossed out.
-- Unmark one item and show it uncrossed.
-- Add another checklist item.
+If you need more advanced behavior than a simple list of steps (e.g., separate due dates or assignees), create subtasks with those attributes rather than relying on a separate Checklist construct.
